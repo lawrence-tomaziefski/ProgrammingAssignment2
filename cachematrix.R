@@ -1,6 +1,7 @@
-## functions that cache the inverse of a matrix
+##Coursera Programming Assignment 2
 
-##function that sets the values of a matrix, gets the values of a matrix, sets the inversion of the matrix, gets the inversion of the matrix
+##This function makeCacheMartix that sets the values of a matrix, gets the values of a matrix, 
+##sets the inversion of the matrix, gets the inversion of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -15,7 +16,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##function computes the inverse of matrix returned by makeCacheMatrix above. If the inverse has already been calculated the function will retrieve the inverse from the cache
+##function computes the inverse of matrix returned by makeCacheMatrix above.
+##If the inverse has already been calculated the function will retrieve the inverse from the cache
 
 cacheSolve <- function(x, ...) {
         m <- x$getinverse()
